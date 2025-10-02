@@ -1,7 +1,5 @@
 ---
 - name: Create file with content
-  tasks:
-    - name: Call my_own_module
-      my_own_module:
-        path: /tmp/hello.txt
-        content: hello world
+  my_own_module:
+    path: /tmp/hello.txt
+    content: hello world
