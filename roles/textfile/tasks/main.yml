@@ -1,5 +1,5 @@
 ---
 - name: Create file with content
   my_own_module:
-    path: /tmp/hello.txt
-    content: hello world
+    path: "{{ path }}"
+    content: "{{ content }}"
